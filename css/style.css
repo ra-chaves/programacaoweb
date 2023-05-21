@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: white
+}
+
+div .logo {
+    text-align: center;
+    margin-left: 310px;
+    margin-bottom: 20px;
+}
+
+div h1 {
+    margin-left: 240px;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+div h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+div h3 {
+    margin-top: 40px;
+    margin-left: 290px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    
+
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+form .nome {
+    width: 500px;
+    height: 40px;
+
+
+}
+
+form .email {
+    width: 500px;    
+    height: 40px;
+}
+
+form .termos
+{
+    text-align: center;
+    font-size: 15px;
+}
+
+form p {
+    margin-left: 170px;
+    font-size: 15px;
+}
+
+form .botao {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(23, 126, 245);
+    border-radius: 6px;
+    border-color: #0062
+}
+
+.botao:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062
+  }
